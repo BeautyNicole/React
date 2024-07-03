@@ -1,0 +1,20 @@
+.login {
+    background-image: url("~@/assets/bkg.jpg");
+    background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    .login-container {
+        .login-logo {
+            background-color: #007aff;
+            max-width: 90vw;
+        }
+
+        .login-form {
+            margin: 1rem;
+        }
+    }
+}
