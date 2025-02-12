@@ -3,11 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script src="%PUBLIC_URL%/env.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
+    />
+    <meta 
+      http-equiv="Content-Security-Policy" 
+      content="default-src 'self' *.example.com localhost:8080;
+              img-src 'self' *.example.com data: blob:;
+              style-src 'self' 'unsafe-inline' localhost:8080;
+              script-src 'self' 'unsafe-inline' *.example.com localhost:8080;
+              connect-src 'self' *.example.com localhost:8080;
+              mdedia-src 'self' *.example.com blob:"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
